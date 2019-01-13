@@ -1,0 +1,91 @@
+airnow_reporting_area_geofeature_tablename = {
+    "landuse_a": "geo_features.airnow_reporting_areas_geofeature_landuse_a",
+    "natural": "geo_features.airnow_reporting_areas_geofeature_natural",
+    "natural_a": "geo_features.airnow_reporting_areas_geofeature_natural_a",
+    "places": "geo_features.airnow_reporting_areas_geofeature_places",
+    "places_a": "geo_features.airnow_reporting_areas_geofeature_places_a",
+    "pofw": "geo_features.airnow_reporting_areas_geofeature_pofw_a",
+    "pofw_a": "geo_features.airnow_reporting_areas_geofeature_pois",
+    "pois": "geo_features.airnow_reporting_areas_geofeature_pofw",
+    "pois_a": "geo_features.airnow_reporting_areas_geofeature_pois_a",
+    "railways": "geo_features.airnow_reporting_areas_geofeature_railways",
+    "roads": "geo_features.airnow_reporting_areas_geofeature_roads",
+    "traffic": "geo_features.airnow_reporting_areas_geofeature_traffic_a",
+    "traffic_a": "geo_features.airnow_reporting_areas_geofeature_transport",
+    "transport": "geo_features.airnow_reporting_areas_geofeature_traffic",
+    "transport_a": "geo_features.airnow_reporting_areas_geofeature_transport_a",
+    "waterways": "geo_features.airnow_reporting_areas_geofeature_waterways",
+    "water_a": "geo_features.airnow_reporting_areas_geofeature_water_a",
+    "elevation": "geo_features.airnow_reporting_areas_elevation",
+    "longitude": "geo_features.airnow_reporting_areas_elevation",
+    "latitude": "geo_features.airnow_reporting_areas_elevation"}
+
+
+los_angeles_air_quality_geofeature_tablename = {
+    "landuse_a": "geo_features.los_angeles_air_quality_geofeature_landuse_a",
+    "natural": "geo_features.los_angeles_air_quality_geofeature_natural",
+    "natural_a": "geo_features.los_angeles_air_quality_geofeature_natural_a",
+    "places": "geo_features.los_angeles_air_quality_geofeature_places",
+    "places_a": "geo_features.los_angeles_air_quality_geofeature_places_a",
+    "pofw": "geo_features.los_angeles_air_quality_geofeature_pofw_a",
+    "pofw_a": "geo_features.los_angeles_air_quality_geofeature_pois",
+    "pois": "geo_features.los_angeles_air_quality_geofeature_pofw",
+    "pois_a": "geo_features.los_angeles_air_quality_geofeature_pois_a",
+    "railways": "geo_features.los_angeles_air_quality_geofeature_railways",
+    "roads": "geo_features.los_angeles_air_quality_geofeature_roads",
+    "traffic": "geo_features.los_angeles_air_quality_geofeature_traffic_a",
+    "traffic_a": "geo_features.los_angeles_air_quality_geofeature_transport",
+    "transport": "geo_features.los_angeles_air_quality_geofeature_traffic",
+    "transport_a": "geo_features.los_angeles_air_quality_geofeature_transport_a",
+    "waterways": "geo_features.los_angeles_air_quality_geofeature_waterways",
+    "water_a": "geo_features.los_angeles_air_quality_geofeature_water_a",
+    "longitude": "air_quality_data.los_angeles_air_quality_locations",
+    "latitude": "air_quality_data.los_angeles_air_quality_locations"}
+
+
+la_fishnet_geofeature_tablename = {
+    "landuse_a": "geo_features.la_fishnet_1_geofeature_landuse_a",
+    "natural": "geo_features.la_fishnet_1_geofeature_natural",
+    "natural_a": "geo_features.la_fishnet_1_geofeature_natural_a",
+    "places": "geo_features.la_fishnet_1_geofeature_places",
+    "places_a": "geo_features.la_fishnet_1_geofeature_places_a",
+    "pofw": "geo_features.la_fishnet_1_geofeature_pofw",
+    "pofw_a": "geo_features.la_fishnet_1_geofeature_pofw_a",
+    "pois": "geo_features.la_fishnet_1_geofeature_pois",
+    "pois_a": "geo_features.la_fishnet_1_geofeature_pois_a",
+    "railways": "geo_features.la_fishnet_1_geofeature_railways",
+    "roads": "geo_features.la_fishnet_1_geofeature_roads",
+    "traffic": "geo_features.la_fishnet_1_geofeature_traffic",
+    "traffic_a": "geo_features.la_fishnet_1_geofeature_traffic_a",
+    "transport": "geo_features.la_fishnet_1_geofeature_transport",
+    "transport_a": "geo_features.la_fishnet_1_geofeature_transport_a",
+    "waterways": "geo_features.la_fishnet_1_geofeature_waterways",
+    "water_a": "geo_features.la_fishnet_1_geofeature_water_a"}
+    #    "elevation": "geo_features.la_fishnet_1_elevation",
+    #    "longitude": "geo_features.la_fishnet_1_elevation",
+    #    "latitude": "geo_features.la_fishnet_1_elevation"
+
+
+los_angeles_purple_air_geofeature_tablename = {
+    "landuse_a": "geo_features.los_angeles_purple_air_geofeature_landuse_a",
+    "natural": "geo_features.los_angeles_purple_air_geofeature_natural",
+    "natural_a": "geo_features.los_angeles_purple_air_geofeature_natural_a",
+    "places": "geo_features.los_angeles_purple_air_geofeature_places",
+    "places_a": "geo_features.los_angeles_purple_air_geofeature_places_a",
+    "pofw": "geo_features.los_angeles_purple_air_geofeature_pofw",
+    "pofw_a": "geo_features.los_angeles_purple_air_geofeature_pofw_a",
+    "pois": "geo_features.los_angeles_purple_air_geofeature_pois",
+    "pois_a": "geo_features.los_angeles_purple_air_geofeature_pois_a",
+    "railways": "geo_features.los_angeles_purple_air_geofeature_railways",
+    "roads": "geo_features.los_angeles_purple_air_geofeature_roads",
+    "traffic": "geo_features.los_angeles_purple_air_geofeature_traffic",
+    "traffic_a": "geo_features.los_angeles_purple_air_geofeature_traffic_a",
+    "transport": "geo_features.los_angeles_purple_air_geofeature_transport",
+    "transport_a": "geo_features.los_angeles_purple_air_geofeature_transport_a",
+    "waterways": "geo_features.los_angeles_purple_air_geofeature_waterways",
+    "water_a": "geo_features.los_angeles_purple_air_geofeature_water_a",
+    # "elevation": "geo_features.purpleair_sensor_la_elevation",
+    "longitude": "air_quality_data.los_angeles_purple_air_outside_locations_view",
+    "latitude": "air_quality_data.los_angeles_purple_air_outside_locations_view"}
+
+utah_air_quality_geofeature_tablename = "utah_air_quality_geofeature_"
