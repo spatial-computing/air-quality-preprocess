@@ -1,6 +1,7 @@
-from utils.lib import *
+from services.utils import *
 
 import pandas as pd
+import numpy as np
 
 
 class GEOModel:
@@ -80,7 +81,6 @@ class GEOModel:
 
         feature_vector = feature_vector.fillna(0.0)
         feature_vector = feature_vector[locations]
-        print('Geographic feature vector construction finished.')
         return feature_vector
 
     def _get_geo_feature(self, locations, geo_feature_table_name_dic, conn):
@@ -115,6 +115,7 @@ class GEOModel:
 
             geo_feature_data = conn.read(this_geo_feature_table_name, column_set)
             geo_feature_df = pd.DataFrame(geo_feature_data, columns=self._column_set)
+            geo_feature_df.drop_duplicates(inplace=True)
             # NOTE: filter the location based on the provided air quality locations
             geo_feature_df = geo_feature_df.loc[geo_feature_df[self._gid_col].isin(locations)]
             geo_feature_df_list.append(geo_feature_df)
