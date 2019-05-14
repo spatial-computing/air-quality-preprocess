@@ -74,8 +74,10 @@ def time_series_construction2(df, key_col='station_id', time_col='date_observed'
     keys = list(set(df[key_col]))
 
     result_time_series = pd.DataFrame(index=times, columns=keys)
+    print(df.shape)
 
     for index, row in df.iterrows():
+        print(index)
         station_id = row[key_col]
         time = row[time_col]
         result_time_series.loc[time, station_id] = row[value_col]

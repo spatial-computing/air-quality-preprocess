@@ -3,7 +3,7 @@
     "air_quality": {
       "data_source": "purple_air",
       "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
-      "column_set": ["station_id", "date_observed", "value"],
+      "column_set": ["station_id", "date_observed::TIMESTAMP WITHOUT TIME ZONE as date_observed", "value"],
       "request_condition": "where date_observed >= '2017-11-01' and date_observed < '2018-06-01'"
     },
     "locations": {

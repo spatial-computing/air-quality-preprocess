@@ -1,5 +1,5 @@
 import psycopg2
-
+import pandas as pd
 
 class Connection:
 
@@ -16,6 +16,13 @@ class Connection:
             .format(columns=','.join(column_set), table=table_name, where=request_condition)
         res = self.execute_wi_return(sql)
         return res
+
+    def read_as_dataframe(self,  table_name, column_set, request_condition=''):
+        sql = 'select {columns} from {table} {where}'\
+            .format(columns=','.join(column_set), table=table_name, where=request_condition)
+        df=pd.read_sql(sql, con=self._conn)
+        return df
+
 
     def get_conn(self):
         return self._conn
