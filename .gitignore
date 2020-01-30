@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# self-defined ignoring file
+/data/*
+/services/postgres_connection.py
