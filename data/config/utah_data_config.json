@@ -1,0 +1,73 @@
+{
+  "training": {
+    "air_quality": {
+      "data_source": "purple_air",
+      "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
+      "column_set": ["station_id", "date_observed::TIMESTAMP WITHOUT TIME ZONE", "value"],
+      "request_condition": "where date_observed >= '2017-11-01' and date_observed < '2018-02-01'"
+    },
+    "locations": {
+      "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
+      "column_set": ["station_id", "lon", "lat"],
+      "request_condition": ""
+    },
+    "geo_feature":{
+      "table_name_pr": "geo_features.utah_air_quality_geofeature",
+      "column_set":["gid", "geo_feature", "feature_type", "buffer_size", "value"],
+      "additional_features": {
+        "longitude": {
+          "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
+          "column_set": ["station_id", "lon"]
+        },
+        "latitude": {
+          "table_name": "air_quality_data.utah_purple_air_ground_level_hourly",
+          "column_set": ["station_id", "lat"]
+        }
+      }
+    }
+  },
+  "testing": {
+    "air_quality": {
+      "data_source": "epa",
+      "table_name": "air_quality_data.utah_epa_air_quality",
+      "column_set": ["station_id", "date_observed::TIMESTAMP WITHOUT TIME ZONE", "value"],
+      "request_condition": "where date_observed >= '2017-11-01' and date_observed < '2018-06-01'"
+    },
+    "locations": {
+      "table_name": "air_quality_data.utah_epa_air_quality",
+      "column_set": ["station_id", "lon", "lat"],
+      "request_condition": ""
+    },
+    "geo_feature": {
+      "table_name_pr": "geo_features.utah_air_quality_geofeature",
+      "column_set":["gid", "geo_feature", "feature_type", "buffer_size", "value"],
+      "additional_features": {
+        "longitude": {
+          "table_name": "air_quality_data.los_angeles_epa_sensor_locations",
+          "column_set": ["station_id", "lon"]
+        },
+        "latitude": {
+          "table_name": "air_quality_data.los_angeles_epa_sensor_locations",
+          "column_set": ["station_id", "lat"]
+        }
+      }
+    }
+  },
+  "feature_set": [
+    "landuse_a",
+    "natural",
+    "natural_a",
+    "places",
+    "places_a",
+    "pois",
+    "pois_a",
+    "railways",
+    "roads",
+    "traffic",
+    "traffic_a",
+    "transport",
+    "transport_a",
+    "water_a",
+    "waterways"
+  ]
+}

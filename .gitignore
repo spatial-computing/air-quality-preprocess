@@ -105,5 +105,3 @@ venv.bak/
 
 
 # self-defined ignoring file
-/data/*
-/services/postgres_connection.py
