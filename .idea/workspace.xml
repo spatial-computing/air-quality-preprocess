@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cfddaef-ff06-46b6-b9e7-12ace3011442" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/config/utah_data_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/config/utah_model_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess/los_angeles_purple_air.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess/utah_epa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess/utah_purple_air.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data_config_utah.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/air_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/geo_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess/timeseries_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/timeseries_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess/utah_preprocessing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/preprocess_libs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/los_angeles_epa.py" afterDir="false" />
-    </list>
+    <list default="true" id="7cfddaef-ff06-46b6-b9e7-12ace3011442" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +23,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_preprocess.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_preprocess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="792">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -53,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utah_model_config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/config/utah_model_config.json">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="344">
+              <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postgres_connection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/postgres_connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -99,6 +90,8 @@
         <option value="$PROJECT_DIR$/preprocess/los_angeles_epa.py" />
         <option value="$PROJECT_DIR$/data_model/geo_model.py" />
         <option value="$PROJECT_DIR$/data/config/utah_model_config.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/services/postgres_connection.py" />
       </list>
     </option>
   </component>
@@ -122,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +259,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="1905" y="42" width="1634" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -274,14 +268,14 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18131869" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18844222" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.21245421" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.21859297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.50769234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50769234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,37 +324,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/data_config_utah.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/timeseries_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/air_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/geo_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/air_model.py" />
+    <entry file="file://$PROJECT_DIR$/model/geo_model.py" />
     <entry file="file://$PROJECT_DIR$/preprocess/utah_purple_air.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -375,9 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/utils.py" />
     <entry file="file://$PROJECT_DIR$/test/test_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -388,13 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/preprocess_libs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/services/preprocess_libs.py" />
     <entry file="file://$PROJECT_DIR$/test/data_config_utah.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -402,20 +359,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/air_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="45" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/geo_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/air_model.py" />
+    <entry file="file://$PROJECT_DIR$/model/geo_model.py" />
     <entry file="file://$PROJECT_DIR$/services/timeseries_preprocess.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -430,9 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/constants.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/constants.py" />
     <entry file="file://$PROJECT_DIR$/preprocess/los_angeles_epa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -440,20 +383,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/air_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="45" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/geo_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/air_model.py" />
+    <entry file="file://$PROJECT_DIR$/model/geo_model.py" />
     <entry file="file://$PROJECT_DIR$/services/timeseries_preprocess.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -476,53 +407,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/constants.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/constants.py" />
     <entry file="file://$PROJECT_DIR$/services/mongo_connection.py" />
     <entry file="file://$PROJECT_DIR$/services/file_helpers.py" />
     <entry file="file://$PROJECT_DIR$/preprocess/utah_preprocessing.py" />
-    <entry file="file://$PROJECT_DIR$/services/postgres_connection.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/constants.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/constants.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="74" column="7" lean-forward="true" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/air_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/geo_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/preprocess_libs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/utils.py" />
+    <entry file="file://$PROJECT_DIR$/model/air_model.py" />
+    <entry file="file://$PROJECT_DIR$/model/geo_model.py" />
+    <entry file="file://$PROJECT_DIR$/services/preprocess_libs.py" />
     <entry file="file://$PROJECT_DIR$/test/data_config_utah.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -534,19 +428,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_utah.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main_utah.py" />
     <entry file="file://$PROJECT_DIR$/preprocess/utah_epa.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -585,11 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/config/utah_data_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/config/utah_model_config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -606,11 +486,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="792">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_model/var_const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/generate_data_for_DCRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="208" column="53" selection-start-line="208" selection-start-column="53" selection-end-line="208" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config/utah_data_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-742" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/postgres_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
